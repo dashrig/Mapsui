@@ -16,7 +16,7 @@
     <language>en-US</language>
     <dependencies>
       <!-- [ or ] is including, ( or ) is excluding -->
-      <group targetFramework="netstandard2.0">
+      <group targetFramework="netstandard2.1">
         <dependency id="Mapsui" version="$version$"/>
         <dependency id="Newtonsoft.json" version="[13.0.1,)"/>
       </group>
@@ -28,7 +28,7 @@
   </metadata>
   <files>
     <file src="..\LICENSE" target="LICENSE" />
-    <file src="..\Mapsui.ArcGIS\bin\Release\netstandard2.0\Mapsui.ArcGIS.dll" target="lib\netstandard2.0\Mapsui.ArcGIS.dll" />
+    <file src="..\Mapsui.ArcGIS\bin\Release\netstandard2.1\Mapsui.ArcGIS.dll" target="lib\netstandard2.1\Mapsui.ArcGIS.dll" />
     <file src="..\Mapsui.ArcGIS\bin\Release\net6.0\Mapsui.ArcGIS.dll" target="lib\net6.0\Mapsui.ArcGIS.dll" />
   </files>
 </package>
