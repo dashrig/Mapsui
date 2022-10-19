@@ -3,8 +3,8 @@
   <metadata>
 
     <!-- package -->
-    <id>Mapsui.Maui</id>
-    <title>Mapsui for Xamarin.Maui</title>
+    <id>XMapsui.Maui</id>
+    <title>XMapsui for Xamarin.Maui</title>
     <version>$version$</version>
     <description>Mapsui.Maui - Library for mapping for Maui</description>
     <projectUrl>https://github.com/Mapsui/Mapsui</projectUrl>
@@ -20,7 +20,7 @@
 
     <dependencies>
       <group targetFramework="net6.0">
-        <dependency id="Mapsui" version="$version$"/>
+        <dependency id="XMapsui" version="$version$"/>
         <dependency id="Microsoft.Maui.Dependencies" version="[6.0.312,7.0)" />
         <dependency id="SkiaSharp" version="[2.88.3,3.0.0)"/>
         <dependency id="SkiaSharp.Views.Maui.Controls" version="[2.88.3,3.0.0)"/>

@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>Mapsui.ArcGIS</id>
+    <id>XMapsui.ArcGIS</id>
     <version>$version$</version>
-    <title>Mapsui</title>
+    <title>XMapsui</title>
     <authors>Paul den Dulk</authors>
     <owners>Paul den Dulk</owners>
     <projectUrl>https://github.com/Mapsui/Mapsui</projectUrl>
@@ -17,11 +17,11 @@
     <dependencies>
       <!-- [ or ] is including, ( or ) is excluding -->
       <group targetFramework="netstandard2.1">
-        <dependency id="Mapsui" version="$version$"/>
+        <dependency id="XMapsui" version="$version$"/>
         <dependency id="Newtonsoft.json" version="[13.0.1,)"/>
       </group>
       <group targetFramework="net6.0">
-	    <dependency id="Mapsui" version="$version$"/>
+	    <dependency id="XMapsui" version="$version$"/>
 	    <dependency id="Newtonsoft.json" version="[13.0.1,)"/>
       </group>
     </dependencies>

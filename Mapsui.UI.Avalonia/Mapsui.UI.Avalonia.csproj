@@ -18,8 +18,8 @@
 
   <ItemGroup>
     <PackageReference Include="BruTile" />
-    <PackageReference Include="SkiaSharp"  />
-    <PackageReference Include="Avalonia"  />
+    <PackageReference Include="SkiaSharp" />
+    <PackageReference Include="Avalonia" />
     <PackageReference Include="Avalonia.Desktop" />
     <PackageReference Include="Avalonia.ReactiveUI" />
   </ItemGroup>

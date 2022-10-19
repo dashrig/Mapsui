@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
 	<metadata>
-		<id>Mapsui.Avalonia</id>
+		<id>XMapsui.Avalonia</id>
 		<version>$version$</version>
-		<title>Mapsui</title>
+		<title>XMapsui</title>
 		<authors>Paul den Dulk</authors>
 		<owners>Paul den Dulk</owners>
 		<projectUrl>https://github.com/Mapsui/Mapsui</projectUrl>
@@ -17,14 +17,14 @@
 		<language>en-US</language>
 		<dependencies>
 			<group targetFramework="net6.0">
-				<dependency id="Mapsui" version="$version$"/>
+				<dependency id="XMapsui" version="$version$"/>
 				<dependency id="SkiaSharp" version="[2.88.3,3.0.0)"/>
 				<dependency id="Avalonia" version="[0.10.18,0.11.0)" />
 				<dependency id="Avalonia.Desktop" version="[0.10.18,0.11.0)" />
 				<dependency id="Avalonia.ReactiveUI" version="[0.10.18,0.11.0)" />
 			</group>
 			<group targetFramework="netstandard2.1">
-				<dependency id="Mapsui" version="$version$"/>
+				<dependency id="XMapsui" version="$version$"/>
 				<dependency id="SkiaSharp" version="[2.88.3,3.0.0)"/>
 				<dependency id="Avalonia" version="[0.10.18,0.11.0)" />
 				<dependency id="Avalonia.Desktop" version="[0.10.18,0.11.0)" />
